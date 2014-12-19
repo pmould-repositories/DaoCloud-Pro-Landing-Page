@@ -12,14 +12,10 @@ DaoCloud-Pro-Landing-Page
 	Redesign of the DaoCloud Landing Page and linked pages
 
 <h3>-Tasks</h3>
-	* First Draft of Landging Page
-	* Wireframe for Pro Demo Page
-	* Wireframe for Member Demo Page
-
 	Redesign of the DaoCloud Pro Landing Page
 
 <h3>-Tasks</h3>
-	* To create website based on mock ups for the 4 layouts: large-Screens, Desktop, Tablet and Mobile Phones
+	* To create website based on 4 mock-ups: large-Screens, Desktop, Tablet and Mobile Phones
 
 
 <h3>-Components</h3>
@@ -29,8 +25,8 @@ DaoCloud-Pro-Landing-Page
 	* Used Compass to watch files
 	* Set up Compass with the following steps:
 	  *   install node.js
-	  *   install compass using nodjs package manager
-	  *   To watch a folder using compass use the follwing command:
+	  *   install compass using nodejs package manager
+	  *   To watch a folder using compass use the following command:
 	    *   "sass --watch path/css-directoy"
 	    *TO slect the output file to convert the sass files use this command
 	    *"sass --watch path/css-directoy:path/sass-output-directory"   
