@@ -1,7 +1,7 @@
-<<<<<<< HEAD
+
 DaoCloud 
 ========
-=======
+
 DaoCloud-Pro-Landing-Page
 =========================
 
