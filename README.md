@@ -9,9 +9,6 @@ DaoCloud-Pro-Landing-Page
 	Holistic Health Care Online Center
 
 <h3>-Description</h3>
-	Redesign of the DaoCloud Landing Page and linked pages
-
-<h3>-Tasks</h3>
 	Redesign of the DaoCloud Pro Landing Page
 
 <h3>-Tasks</h3>
