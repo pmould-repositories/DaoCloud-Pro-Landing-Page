@@ -1,4 +1,31 @@
 DaoCloud-Pro-Landing-Page
 =========================
 
-DaoCloud  ======== &lt;h3>-About&lt;/h3> 	Holistic Health Care Online Center  &lt;h3>-Description&lt;/h3> 	Redesign of the DaoCloud Landing Page and linked pages  &lt;h3>-Tasks&lt;/h3> 	* First Draft of Landging Page 	* Wireframe for Pro Demo Page 	* Wireframe for Member Demo Page  &lt;h3>-Components&lt;/h3> 	Twitter-Bootstrap (SASS)  &lt;h3>-Notes&lt;/h3> 	* Using *Indented Syntax* .sass file for landing-page (index.html styles) 	* Used Scout to watch SAS Files &lt;h3>-Configurations&lt;/h3> 	SASS input/output directory for the main stylesheet (style.sass/style.css)  		* SASS Input Directory = "\stylesheets\" 		* CSS OutPut Directory = "
+<h3>-About</h3>
+	Holistic Health Care Online Center
+
+<h3>-Description</h3>
+	Redesign of the DaoCloud Pro Landing Page
+
+<h3>-Tasks</h3>
+	* To create website based on mock ups for the 4 layouts: large-Screens, Desktop, Tablet and Mobile Phones
+
+<h3>-Components</h3>
+	Twitter-Bootstrap (SASS)
+
+<h3>-Notes</h3>
+	* Using *Indented Syntax* .sass file for landing-page (index.html styles)
+	* Used Compass to watch files
+	* Set up Compass with the following steps:
+	  *   install node.js
+	  *   install compass using nodjs package manager
+	  *   To watch a folder using compass use the follwing command:
+	    *   "sass --watch path/css-directoy"
+	    *TO slect the output file to convert the sass files use this command
+	    *"sass --watch path/css-directoy:path/sass-output-directory"   
+<h3>-Configurations</h3>
+	SASS input/output directory for the main stylesheet (style.sass/style.css) 
+		* SASS Input Directory = "\sass\"
+		* CSS OutPut Directory = "\css\"
+
+
