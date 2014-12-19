@@ -1,0 +1,512 @@
+/***************** DaoCloud Landing Page Stylesheet ****************/
+
+// SASS IMPORTS: Twitter Bootstrap - ALL SASS Files
+//***************** Twitter Bootstrap 3.2  *************************/
+@import "vendor/bootstrap"
+
+/*******************************************************************/
+
+// VARIABLES
+
+//Font-Colors
+$fontm: Raleway
+$fgColor: #0a3153
+// Old COlor: #092f57
+//Call-to-action Button variables
+$btnCol: darkblue
+//$btnBgc: yellow
+$ltblue: #2ec0e3
+$green:  #41b048
+$btnBgc: #cfdb00
+
+/*********************** CustomHelper Classes **********************/
+.center-block 
+	float: none
+.block
+	display: block !important
+
+/******************************************************************/
+
+/***************** UNCOMMENT TO SEE GRID LAYOUT *******************/
+/*
+	.container
+		border: 5px solid orange
+
+	.row
+		border: 1px solid black
+		> .col
+			border: 5px solid red 
+	 	
+/*******************************************************************/
+
+/********************** Base CSS styles ****************************/
+body
+	font-family: Raleway
+h1
+	font-size: 36px !important
+	font-weight: 600 !important
+
+h2
+	font-size: 26px !important
+
+h1, h2, h3, h4, span
+	margin: 0px
+	//text-align: center
+	color: $fgColor
+#main-content
+	margin-top: 51px
+
+/*****************************************************************/
+
+/******************* Section CSS Styles **************************/
+.section-title
+	padding: 45px
+
+.end-pad 
+	&:after 
+		content: " "
+		margin-bottom: 80px
+		display: table
+
+.endsec-pad
+	&:after 
+		content: " "
+		margin-bottom: 50px
+		display: table
+
+/*****************************************************************/
+
+/************************ Button/Links Styles *************************/	
+
+#signup-row .btn
+	position: absolute
+	top: 25%
+	left: 50% 
+	width: 15.75vw
+	//width: 200px
+	text-align: center
+	padding: 25px
+	margin-left: -100px !important
+	
+
+.btn, input[type="submit"]
+	background-color: $btnBgc
+	color: $fgColor
+	background-image: -webkit-linear-gradient(top, $btnBgc 0%, #e5e500 10%, #cccc00 100%)
+	font-size: 18px
+	border-radius: 10px
+	display: inline-block
+	font-weight: 600
+	text-decoration: none
+	border: 3px solid $fgColor
+	padding-left: 51px
+	padding-right: 51px
+	font-weight: bold
+	&:hover
+		color: $fgColor
+		background-image: -webkit-linear-gradient(#ffffe5 0%, #ffff66 10%, $btnBgc 25%, #e5e500 80%, #cccc00 100%)
+		background-image: -o-linear-gradient(#ffffe5 0%, #ffff66 10%, $btnBgc 25%, #e5e500 80%, #cccc00 100%)
+		background-image: linear-gradient(#ffffe5 0%, #ffff66 10%, $btnBgc 25%, #e5e500 80%, #cccc00 100%)
+input[type="submit"]
+	line-height: 3px
+
+#row2
+	.btn
+		width: 116px
+		width: 116px
+		margin: 2vw
+
+/************************************************************/
+
+/**************** Standard Form Styles **********************/
+label
+	color: $fgColor
+.contact-us-form 
+	textarea, input:not([type="submit"])
+		opacity: 0.4
+		background-color: $fgColor
+		color: #fff
+	.input-border
+		border: 1.5px solid #092f57
+		border-radius: 4px
+
+/***********************************************************/
+
+/********************** Header Styles **********************/
+header.navbar 
+	min-height: 40px!important
+.navbar 
+	margin-bottom: 0
+.nav
+	padding-right: 15px
+	>li
+		margin: 10px
+		@media (min-width: $screen-md)
+			margin: 0px
+			padding: 0px 10px !important
+			position: relative
+			top: 12px
+		@media (min-width: $screen-md)
+			&:nth-of-type(1), &:nth-of-type(2)
+				border-right: 1px solid $state-info-text
+		&:nth-of-type(1), &:nth-of-type(2), &:nth-of-type(3)
+			a, a:hover
+				padding: 5px 10px !important
+				color: $state-info-text
+				text-decoration: none
+.navbar-brand
+	padding: 0px 15px
+
+
+.navbar-nav>li:nth-of-type(4)>a 
+	padding: 5px 25px
+	background-color: $ltblue !important
+	color: white !important
+	border-radius: 4px
+
+
+
+
+	
+		
+
+/*****************************************************************/
+
+
+
+/************** Signup & Request Section Styles ******************/	
+#row1-section
+	padding-top: 50px
+.inner-container
+	margin: 20px auto
+#signup-row
+	background: url('../images/sign-up-bg.jpg') no-repeat
+	height: 42.25vw
+	background-size: contain
+	.inner-container
+		height: 42vw
+	h2
+		position: relative
+		float: right
+		right: 4vw
+		padding-top: 20px
+		font-weight: bold
+.scrolldown-txt
+	top: 86%
+	position: relative
+	margin: 0px auto
+	text-align: center
+	width: 54%
+	font-family: $fontm
+	font-size: larger
+	color: $fgColor
+	font-weight: bold
+	span
+		&:nth-of-type(1)
+			float: left
+		&:nth-of-type(2)
+			float: right
+		
+/***************** Standard Number Section Styles *********************/
+
+.title-container
+	height: 75px
+	h3
+		font-weight: 600
+.sec-num-container
+	display: inline-block
+	width: 75px
+	height: 75px
+	border: 3px solid #0a3153
+	border-radius: 40px
+	float: left
+.sec-num
+	line-height: 64px
+	font-size: 54px
+	text-align: center
+	width: 70px
+	display: inline-block
+.sec-title
+	display: inline-block
+	width: 243px
+	padding: 10px
+	margin: 0px
+.signup-btn
+	float: right
+.signup-btn-alt
+	padding-top: 15px
+	padding-bottom: 15px
+	margin-top: 10px
+	float: right	
+/*****************************************************************/
+
+/***************** User Profile Section *********************/
+#userprof-row
+	.signup-btn
+		position: relative
+		z-index: 100
+		width: 15vw
+		top: 14.5vw
+		right: 7.5vw
+		/*
+			position: relative
+			margin-right: 90px
+			z-index: 100 */
+	.scrnsht
+		margin-top: -190px
+		float: left
+
+
+/*****************************************************************/
+
+/***************** Resources Section Styles **********************/	
+#rsrcs-row
+	background-color: $ltblue
+	img
+		width: 100%
+
+/*****************************************************************/
+
+/***************** Learn Features Section Styles *****************/	
+#row4-section
+	img
+		//height: 621px
+		//margin-top: -175px
+		position: absolute
+		z-index: 100
+		height: 48.5vw
+		margin-top: -10.715vw
+		margin-left: 8vw
+#ftrs-row
+	background-color: $green
+	h2
+		text-align: center
+		font-weight: bold
+		margin: 25px
+		line-height: 32px
+
+.btn-ftr
+	padding: 20px 60px
+	position: relative
+	z-index: 100
+
+
+	
+
+/*****************************************************************/
+
+/***************** Search Feature Section *********************/
+#srch-ftr-row
+	.signup-btn
+		position: relative
+		z-index: 100
+		width: 15vw
+		top: 14.5vw
+		right: .15vw
+		/*
+			position: relative
+			margin-right: 90px
+			z-index: 100 */
+	.scrnsht
+		margin-top: -190px
+		float: right
+
+
+/*****************************************************************/
+
+/***************** Get Placed Feature Section Styles *****************/	
+#row6-section
+	img
+		height: 28.25vw
+		position: absolute
+		z-index: 10
+		margin-top: -3.5vw
+		&:nth-of-type(1)
+			left: 12vw
+		&:nth-of-type(2)
+			right: 10vw
+#getplaced-row
+	background-color: $ltblue
+	h2
+		text-align: center
+		font-weight: bold
+		margin: 25px
+		line-height: 32px
+
+.btn-gpl
+	padding: 20px 75px
+	margin: 80px 0px
+	position: relative
+	z-index: 100
+	width: 100%
+
+
+	
+
+/*****************************************************************/
+
+/***************** Subscribe Section Styles **********************/
+#sbscrb-row
+	.scrb-frm-ctr
+		margin: 15px auto
+	h3
+		text-align: center
+		font-weight: bold
+		margin-bottom: 3vw
+	input
+		width: 100%
+		display: block
+		border: 3px solid $fgColor
+		font-size: 22px
+		&::-webkit-input-placeholder 
+			text-align: center
+		&:-moz-placeholder
+			text-align: center  
+		&::-moz-placeholder 
+			text-align: center  
+		&:-ms-input-placeholder   
+			text-align: center
+	.scrb-btn-ctr
+		width: 70%
+	position: relative
+	margin: 0 auto
+	.btn
+		padding: 20px
+		width: 100%
+
+
+
+
+
+
+
+/*****************************************************************/
+
+/***************** Footer Section Styles *********************/
+footer
+	background-color: $fgColor 
+	.row
+		margin: 15px auto
+	.footer-links
+		float: right
+		width: 400px
+	li
+		padding: 1px 10px
+		display: inline-block
+		float: left
+		&:nth-of-type(1), &:nth-of-type(2)
+			border-right: 1px solid white
+		a, a:hover
+			color: white
+			text-decoration: none
+			
+
+
+
+
+/*****************************************************************/
+
+/***************** Contact-Us Section Styles *********************/		
+#contact-us	
+	background-color: #5db8d6
+.label-input
+	margin-bottom: 20px 
+
+input, textarea
+	padding: 12px !important
+#row3
+	input
+		height: 45px
+label
+	font-size: 12px
+
+textarea
+	min-height: 100px
+	resize: vertical
+/*
+	/******************  Social Links Section Styles ******************/	
+	#social-links
+		background-color: #00a2c9		
+	.social
+		padding: 34px
+		text-align: center
+		margin: 0px
+		div
+			display: inline-block
+			text-align: center
+		a 
+			display: block
+			overflow: hidden
+			width: 36px
+			height: 36px
+			background: url(../images/social-icons-sprite3.png) no-repeat
+			text-indent: -9999px
+			border-radius: 45px
+			background-size: 215px
+		li
+			display: inline-block
+			margin-left: .17em
+			padding: 5px
+			border-radius: 50%
+			background: transparent
+			cursor: pointer
+			padding: .125em
+
+		#facebook:hover
+			background-color: #0068ad
+		#pinterest:hover
+			background-color: #cb2026 
+		#linkedin:hover
+			background-color: #007bb6
+		#youtube:hover
+			background-color: #db2625	
+		#instagram:hover
+			background-color: #324991
+		#twitter:hover
+			background-color: #007bb6
+		#googleplus:hover
+			background-color: #d6492f
+
+	#facebook
+		background-position: -31px -135px
+	#pinterest
+		background-position: -31px -105px
+	#youtube
+		background-position: -149px -43px
+	#instagram
+		background-position: -72px -104px
+	#googleplus
+		background-position: -70px -13px
+	#twitter
+		background-position: -30px -165px
+	#linkedin
+		background-position: -110px -45px
+
+	/**************************************************************/
+	/*
+		/******************** Footer Styles ***************************/
+		#footer
+			background-color: #0a3153
+			color: rgba(255,255,255,.3)
+		.footer-inner 
+			padding: 68px 34px
+		#siteInfo 
+			margin-bottom: 1.5em
+			text-align: center
+			font-family: "Raleway"
+			text-transform: uppercase
+			text-decoration: none
+			letter-spacing: 1px
+			font-size: 12px
+			font-weight: 500
+			font-style: normal
+			color: rgba(255,255,255,.8)
+			a,a:active, a:hover, a:visited
+				color: rgba(255,255,255,.8)
+				text-decoration: none
+
+	/**************************************************************/
+
+
+//END OF SASS STYLESHEET
+
